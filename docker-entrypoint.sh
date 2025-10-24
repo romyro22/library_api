@@ -9,7 +9,7 @@ done
 
 echo "PostgreSQL is ready!"
 
-# Reset database if RESET_DB is set to true (for development)
+
 if [ "$RESET_DB" = "true" ]; then
     echo "Resetting database (RESET_DB=true)..."
     python manage.py flush --noinput || echo "Database flush failed (might be first run)"
