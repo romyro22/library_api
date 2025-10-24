@@ -1,5 +1,3 @@
-*.pyc
-
 # Python
 __pycache__/
 *.py[cod]
@@ -35,7 +33,7 @@ media/
 staticfiles/
 
 # Environment
-.venv/
+.env
 
 # IDE
 .vscode/
@@ -47,4 +45,3 @@ staticfiles/
 # OS
 .DS_Store
 Thumbs.db
-
